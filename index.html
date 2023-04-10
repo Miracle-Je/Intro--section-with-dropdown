@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro-section-with-dropdown-navigation</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;500;600;700&family=Outfit:wght@400;500;700&family=Poppins:wght@200;300;400;500;600;700&family=Red+Hat+Text:wght@400;600;700&family=Roboto+Mono:wght@300;400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <img src="./images/icon-menu.svg" alt="" class="open" />
+      <nav class="nav display">
+        <ul>
+          <h2>snap</h2>
+          <li class="features">
+            Features
+            <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+              <path
+                stroke="#686868"
+                stroke-width="1.5"
+                fill="none"
+                d="m1 1 4 4 4-4"
+              />
+            </svg>
+            <div class="dropdown-container1 hide">
+              <div>
+                <img src="./images/icon-todo.svg" alt="" />
+                <p class="dropdown-para">Todo List</p>
+              </div>
+              <div>
+                <img src="./images/icon-calendar.svg" alt="" />
+                <p class="dropdown-para">Calender</p>
+              </div>
+              <div>
+                <img src="./images/icon-reminders.svg" alt="" />
+                <p class="dropdown-para">Reminders</p>
+              </div>
+              <div>
+                <img src="./images/icon-planning.svg" alt="" />
+                <p class="dropdown-para">Planning</p>
+              </div>
+            </div>
+          </li>
+          <li class="company">
+            Company
+            <svg width="10" height="6" xmlns="http://www.w3.org/2000/svg">
+              <path
+                stroke="#686868"
+                stroke-width="1.5"
+                fill="none"
+                d="m1 1 4 4 4-4"
+              />
+            </svg>
+            <div class="dropdown-container2 hide">
+              <p class="dropdown-para">History</p>
+              <p class="dropdown-para">Our Team</p>
+              <p class="dropdown-para">Blog</p>
+            </div>
+          </li>
+          <li>Careers</li>
+          <li>About</li>
+        </ul>
+
+        <div class="login">
+          <h3>Login</h3>
+          <button>Register</button>
+        </div>
+        <img src="./images/icon-close-menu.svg" alt="" class="close" />
+      </nav>
+
+      <section>
+        <article>
+          <div class="details">
+            <h1>Make remote work</h1>
+            <p>
+              Get your team in sync. no matter your location <br />Streamline
+              processes. Create team rituals and <br />
+              watch productivity soar.
+            </p>
+            <button class="btn">Learn more</button>
+
+            <footer>
+              <img src="./images/client-databiz.svg" alt="" class="img-1" />
+              <img src="./images/client-audiophile.svg" alt="" class="img-2" />
+              <img src="./images/client-meet.svg" alt="" class="img-3" />
+              <img src="./images/client-maker.svg" alt="" class="img-4" />
+            </footer>
+          </div>
+
+          <div class="box">
+            <div class="pic"></div>
+          </div>
+          <!-- <div class="box1 box"></div>
+          <div class="box2 box"></div> -->
+        </article>
+      </section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>
