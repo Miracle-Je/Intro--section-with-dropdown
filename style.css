@@ -43,6 +43,14 @@ main {
   color: #3a3a3a;
 }
 
+span {
+  margin-left: 5px;
+}
+
+.src {
+  transform: rotate(180deg);
+}
+
 .login {
   display: flex;
   align-items: center;
